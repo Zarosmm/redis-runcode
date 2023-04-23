@@ -1,0 +1,5 @@
+onCreate: |
+  sudo apt-get update -y
+  sudo apt-get install redis-server -y
+onStart: |
+  redis-server
